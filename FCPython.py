@@ -30,8 +30,8 @@ def createPitch(length,width, unity,linecolor): # in meters
             #fig.set_size_inches(7, 5)
             ax=fig.add_subplot(1,1,1)
             
-            fig.set_facecolor("#313332")
-            ax.set_facecolor("#313332")
+            #fig.set_facecolor("#FFFFFF")
+            #ax.set_facecolor("#FFFFFF")
            
             #Pitch Outline & Centre Line
             plt.plot([0,0],[0,width], color=linecolor)
@@ -95,8 +95,8 @@ def createPitch(length,width, unity,linecolor): # in meters
             #fig.set_size_inches(7, 5)
             ax=fig.add_subplot(1,1,1)
             
-            fig.set_facecolor("#313332")
-            ax.set_facecolor("#313332")
+            fig.set_facecolor("#FFFFFF")
+            ax.set_facecolor("#FFFFFF")
             
             #Pitch Outline & Centre Line
             plt.plot([0,0],[0,width], color=linecolor)
